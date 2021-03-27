@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "It says currency convertion rates for selected currencies",
+          "examplePhrases": [
+            "Alexa open currency rates"
+          ],
+          "name": "Currency Rates",
+          "description": "It says currency convertion rates for selected currencies"
+        },
+        "en-US": {
+          "summary": "It says currency convertion rates for selected currencies",
+          "examplePhrases": [
+            "Alexa open currency rates"
+          ],
+          "name": "Currency Rates",
+          "description": "It says currency convertion rates for selected currencies"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "BUSINESS_AND_FINANCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:398024481618:function:ask-CurrencyRates-default-skill-AlexaSkillFunction-12XJJQ0Z29NM4"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

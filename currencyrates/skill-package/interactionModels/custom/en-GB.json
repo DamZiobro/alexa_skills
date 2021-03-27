@@ -1,0 +1,33 @@
+  {
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "currency rates",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CurrencyRatesIntent", 
+                    "slots": [],
+                    "samples": [
+                        "tell me currency rates"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
